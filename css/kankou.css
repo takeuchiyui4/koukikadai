@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+/*========= LoadingのためのCSS ===============*/
+/* Loading背景画面設定　*/
+#splash {
+position: fixed;
+z-index: 999;
+width: 100%;
+height: 100%;
+background:#333;
+text-align:center;
+color:#fff;
+}
+/* Loadingバー中央配置　*/
+#splash_text {
+position: absolute;
+top: 50%;
+left: 50%;
+  z-index: 999;
+width: 100%;
+transform: translate(-50%, -50%);
+color: #fff;
+}
+body p{
+  font-size: 17px;
+}
+body .main{
+  font-family: serif;
+}
+body h2{
+  font-size: 27px;
+  text-align: center;
+  padding-top: 3%;
+  margin-bottom: 3%;
+}
+.itosima{
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.itosima:before, .itosima:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.itosima:before {left: 10px;}
+.itosima:after {right: 10px;}
+
+body .setumei1{
+  display: flex;
+  justify-content: center;
+}
+body .setumei1 .text{
+  color: #2c2c2f;
+  background: #cde4ff;
+  border-top: solid 5px #5989cf;
+  border-bottom: solid 5px #5989cf;
+  width: 620px;
+}
+body .setumei1 .text p{
+  padding-top: 2%;
+  padding-left: 1%;
+}
+body .itosima p{
+  display: flex;
+  justify-content: center;
+}
+body .gurume{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+body .gurume img{
+  margin-right: 2%;
+  margin-left: 2%;
+}
+body .itosima .ptext{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #f0f7ff;
+  border: dashed 2px #5989cf;
+  width: 950px;
+  margin-left: 12%;
+}
+body .setumei2{
+  display: flex;
+  justify-content: center;
+}
+.yanagawa{
+  margin:2em 0;
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.yanagawa:before, .yanagawa:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.yanagawa:before {left: 10px;}
+.yanagawa:after {right: 10px;}
+
+body .yanagawa p{
+  display: flex;
+  justify-content: center;
+}
+body .setumei2 .text{
+  color: #2c2c2f;
+  background: rgb(168, 253, 156);
+  border-top: solid 5px rgb(47, 177, 65);
+  border-bottom: solid 5px rgb(47, 177, 65);
+  width: 635px;
+}
+body .setumei2 .text p{
+  padding-top: 2%;
+  padding-left: 1%;
+}
+body .yanagawa .ptext{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #f0f7ff;
+  border: dashed 2px rgb(47, 177, 65);
+  width: 950px;
+  margin-left: 12%;
+}
+.mojikou{
+  margin:2em 0;
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.mojikou:before, .mojikou:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.mojikou:before {left: 10px;}
+.mojikou:after {right: 10px;}
+
+body .mojikou p{
+  display: flex;
+  justify-content: center;
+}
+body .setumei3{
+  display: flex;
+  justify-content: center;
+}
+body .setumei3 .text{
+  color: #2c2c2f;
+  background: rgb(255, 227, 134);
+  border-top: solid 5px rgb(104, 63, 9);
+  border-bottom: solid 5px rgb(104, 63, 9);
+  width: 630px;
+}
+body .setumei3 .text p{
+  padding-top: 2%;
+  padding-left: 2%;
+}
+body .mojikou .ptext{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #f0f7ff;
+  border: dashed 2px rgb(104, 63, 9);
+  width: 950px;
+  margin-left: 12%;
+}
+.umi{
+  margin:2em 0;
+  position: relative;
+  padding: 0.5em 1.5em;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+}
+.umi:before, .umi:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: -webkit-calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: black;
+}
+.umi:before {left: 10px;}
+.umi:after {right: 10px;}
+
+body .umi p{
+  display: flex;
+  justify-content: center;
+} 
+body .setumei4{
+  display: flex;
+  justify-content: center;
+}
+body .setumei4 .text{
+  color: #2c2c2f;
+  background: rgb(226, 185, 228);
+  border-top: solid 5px rgb(102, 55, 105);
+  border-bottom: solid 5px rgb(102, 55, 105);
+  width: 620px;
+}
+body .setumei4 .text p{
+  padding-top: 2%;
+  padding-left: 2%;
+} 
+body .umi .ptext{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #f0f7ff;
+  border: dashed 2px rgb(102, 55, 105);
+  width: 950px;
+  margin-left: 12%;
+}
+body .footer{
+  padding-top: 13px;
+  height: 50px;
+  background-color: #000000;
+}
+body .footer p{
+  color: #ffffff;
+  font-family: serif;
+  text-align: center;
+}
